@@ -1,0 +1,67 @@
+.root{
+
+}
+
+.label{
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-border-radius: 0;
+}
+
+.button:hover{
+
+}
+
+.accordion{
+    -fx-background-color:linear-gradient(#99ccff,#e6f2ff);
+    -fx-background-image: url("../assets/generalbackground.jpg");
+}
+
+.titled-pane{
+    -fx-text-fill: white;
+}
+
+.titled-pane > .content{
+    -fx-padding: 10px;
+    /*-fx-background-color:linear-gradient(#99ccff,#e6f2ff);
+    -fx-background-image: url("../assets/generalbackground.jpg");*/
+    -fx-box-border: transparent;
+    -fx-background-color: rgba(255,255,255,0);
+}
+
+.titled-pane > .title{
+    /*-fx-background-color: blue, white, linear-gradient(#99ccff,#e6f2ff);
+    -fx-background-image: url("../assets/generalbackground.jpg");*/
+    -fx-border-color: blue;
+    -fx-background-color: rgba(255,255,255,0);
+}
+
+.titled-pane > .title > .arrow-button .arrow{
+    -fx-background-color: black, white;
+}
+
+.list-view{
+    -fx-background-color: rgba(255, 255, 255, 0);
+}
+
+.list-cell:odd{
+    -fx-background-color: rgba(204, 106, 205, 0.3);
+}
+
+.list-cell:even{
+    -fx-background-color: rgba(0, 106, 205, 0.3);
+}
+
+.list-view .scroll-bar{
+    -fx-background-color: rgba(255, 255, 255, 0);
+}
+
+.list-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+}
+
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+}
